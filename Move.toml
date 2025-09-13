@@ -1,0 +1,15 @@
+[package]
+name = "token-vesting-smart-contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xa24840a34e3fca43dab88ed107843aa4bb0962ff6bf19a6b76b939de2c353995"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
